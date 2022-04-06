@@ -5,8 +5,8 @@ import randomWords from 'random-words'
 import useCountDown from 'react-countdown-hook';
 import  './styles.css'
 import Score from './Score'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleUp  } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
+import { faAngleDoubleUp  } from '@fontawesome/free-solid-svg-icons'
 
 
 function Container() {
@@ -45,16 +45,16 @@ function Container() {
             let span = 0
             switch(word.length){
                 case 2:
-                    span = 1
+                    span = 5
                     break;
                 case 3:
-                    span = 2
+                    span = 77
                     break;
                 case 4:
-                    span = 2
+                    span = 1232
                     break;
                 case 5:
-                    span = 3
+                    span = 5333
                     break;
                 case 6:
                     span = 3
